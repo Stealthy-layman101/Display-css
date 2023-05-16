@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-size: 2rem; /*set font size*/
+    font-family: "Roboto", sans-serif;
+}
+
+ul{
+    /* display: none; */ /* remove unordered list from webpage */
+    list-style-type: none; /*remove list type*/
+    padding: 0.5rem; /*remove padding of top, bottom, left and right*/
+    text-align: right; /*shift text to the right*/
+    background-color: black; /* set background color*/
+    margin: 0; /*remove all margins*/
+  /*   display: flex;
+    flex-direction: row-reverse; */
+}
+
+li{
+     display: inline-block;  /*set display of block level element to inline element so as to arrange the list horizontally instead of vertically*/
+    /* display: none */  /*remove list items*/
+    margin-inline: 0.5rem; /* set margin for left and right of each list*/
+}
